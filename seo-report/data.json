@@ -1,0 +1,476 @@
+[
+  {
+    "url": "https://kader1.framer.website/services/endodontics",
+    "score": 85,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (28 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "warning",
+        "message": "19 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Endodontics - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/services/endodontics",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/services/oral-surgery",
+    "score": 85,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (29 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "warning",
+        "message": "19 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oral Surgery - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/services/oral-surgery",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/team",
+    "score": 85,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Multiple <h1> tags found (2). Best practice is to have only one."
+      },
+      {
+        "type": "warning",
+        "message": "20 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/team",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/",
+    "score": 90,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "10 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/about",
+    "score": 90,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "11 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/about",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/services/cosmetic-dentistry",
+    "score": 90,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "19 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Cosmetic Dentistry - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/services/cosmetic-dentistry",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/services/general-dentistry",
+    "score": 90,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "19 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "General Dentistry - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/services/general-dentistry",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/services/orthodontics-care",
+    "score": 90,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "19 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Orthodontics Care - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/services/orthodontics-care",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/services",
+    "score": 92,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "4 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/services",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/blog",
+    "score": 93,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Multiple <h1> tags found (2). Best practice is to have only one."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/blog",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/book-appointment",
+    "score": 93,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Multiple <h1> tags found (2). Best practice is to have only one."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/book-appointment",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/blog/celebrating-over-15-years-of-crafting-healthy-confident-smiles",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (81 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Celebrating over 15 years of crafting healthy, confident smiles. - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/blog/celebrating-over-15-years-of-crafting-healthy-confident-smiles",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/blog/guide-to-choosing-the-right-toothbrush-and-toothpaste",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (71 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Guide to Choosing the Right Toothbrush and Toothpaste. - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/blog/guide-to-choosing-the-right-toothbrush-and-toothpaste",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/blog/nourishing-foods-for-strong-healthy-teeth-and-lasting-oral-wellness",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (86 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Nourishing Foods for Strong, Healthy Teeth and Lasting Oral Wellness. - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/blog/nourishing-foods-for-strong-healthy-teeth-and-lasting-oral-wellness",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/404",
+    "score": 98,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Oralcare - Dentist framer template",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/404",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/blog/dental-implants-vs-dentures-which-is-right-for-you",
+    "score": 98,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Dental Implants vs. Dentures. Which Is Right for You? - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/blog/dental-implants-vs-dentures-which-is-right-for-you",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/legal-pages/privacy-policy",
+    "score": 98,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Privacy Policy - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/legal-pages/privacy-policy",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  },
+  {
+    "url": "https://kader1.framer.website/legal-pages/terms-conditions",
+    "score": 98,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Terms & Conditions - My Framer Site",
+      "description": "Oralcare is a clean, modern, and highly engaging Framer template crafted specifically for dentists, dental clinics, and oral healthcare providers.",
+      "canonical": "https://kader1.framer.website/legal-pages/terms-conditions",
+      "ogImage": "https://framerusercontent.com/images/odGBvGlNWNQVyWwYHOZMfM4D6A.jpg"
+    }
+  }
+]
