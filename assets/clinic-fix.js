@@ -91,9 +91,14 @@
     fixSplit();
     document.querySelectorAll('a[href*="nivrit"],a[href*="/blog"],a[href*="framer.com"]').forEach(function(a){ (a.closest('li')||a).style.display='none'; a.style.display='none'; });
   }
-  function boot(){ apply(); [200,500,1000,1800,3000,5000].forEach(function(t){setTimeout(apply,t);});
-    var n=0,iv=setInterval(function(){apply(); if(++n>15)clearInterval(iv);},600);
-    try{ new MutationObserver(apply).observe(document.body,{childList:true,subtree:true}); }catch(e){}
+  // anti-rebond : l'observation ne relance apply() qu'après une pause, et s'arrête après hydratation
+  var t=null;
+  function schedule(){ if(t) return; t=setTimeout(function(){ t=null; apply(); }, 180); }
+  function boot(){
+    apply(); [300,800,1600,3000,5000].forEach(function(ms){setTimeout(apply,ms);});
+    var obs=new MutationObserver(schedule);
+    try{ obs.observe(document.body,{childList:true,subtree:true}); }catch(e){}
+    setTimeout(function(){ try{obs.disconnect();}catch(e){} }, 14000);
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',boot); else boot();
 })();

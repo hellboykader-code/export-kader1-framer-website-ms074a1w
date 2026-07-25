@@ -18,3 +18,13 @@
 #olea-soins .olea-cta:hover{color:#4a6a20}
 @media(max-width:980px){#olea-soins .olea-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){#olea-soins .olea-grid{grid-template-columns:1fr}}
+/* vignette icône par catégorie */
+#olea-soins .olea-soin{position:relative}
+#olea-soins .olea-thumb{display:flex;align-items:center;justify-content:center;width:100%;height:120px;border-radius:14px;margin-bottom:6px}
+#olea-soins .olea-thumb svg{opacity:.95}
+/* bouton « Voir plus » sur l'accueil */
+#olea-more{display:flex;justify-content:center;padding:8px 28px 64px;background:#f7f6f0}
+#olea-more .olea-more-btn{display:inline-block;background:#0d1b15;color:#fff;font-weight:700;text-decoration:none;padding:15px 30px;border-radius:999px;font-size:1rem;transition:.2s}
+#olea-more .olea-more-btn:hover{background:#1c3327;transform:translateY(-2px)}
+#olea-soins .olea-cta,#olea-more .olea-more-btn{cursor:pointer}
+#olea-soins .olea-cta:focus-visible,#olea-more .olea-more-btn:focus-visible{outline:2px solid #0d1b15;outline-offset:2px}
