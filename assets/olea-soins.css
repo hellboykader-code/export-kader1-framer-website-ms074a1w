@@ -1,0 +1,20 @@
+/* Oléa — grille 21 soins */
+#olea-soins{padding:80px 0;background:#f7f6f0;position:relative;z-index:2}
+#olea-soins .olea-wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+#olea-soins .olea-eyebrow{display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#0d1b15;background:#d1fc71;padding:6px 14px;border-radius:999px}
+#olea-soins .olea-title{font-family:'Bricolage Grotesque','Trebuchet MS',sans-serif;font-size:clamp(2rem,4.4vw,3.2rem);letter-spacing:-.02em;color:#0d1b15;margin:.35em 0 .1em}
+#olea-soins .olea-sub{color:#595e5c;font-size:1.08rem;max-width:64ch;margin:0 0 26px}
+#olea-soins .olea-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px}
+#olea-soins .olea-chip{border:1px solid #d7dad2;background:#fff;color:#0d1b15;font:600 .92rem/1 inherit;padding:10px 16px;border-radius:999px;cursor:pointer;transition:.18s}
+#olea-soins .olea-chip:hover{border-color:#0d1b15}
+#olea-soins .olea-chip.is-active{background:#0d1b15;color:#fff;border-color:#0d1b15}
+#olea-soins .olea-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+#olea-soins .olea-soin{display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid #e7e8e2;border-radius:18px;padding:24px 22px;transition:.2s}
+#olea-soins .olea-soin:hover{transform:translateY(-4px);border-color:#0d1b15;box-shadow:0 12px 30px rgba(13,27,21,.08)}
+#olea-soins .olea-tag{align-self:flex-start;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#4a6a20;background:#eef7d6;padding:4px 10px;border-radius:999px}
+#olea-soins .olea-soin h3{font-family:'Bricolage Grotesque','Trebuchet MS',sans-serif;font-size:1.2rem;color:#0d1b15;margin:6px 0 0;letter-spacing:-.01em}
+#olea-soins .olea-soin p{color:#595e5c;font-size:.96rem;line-height:1.55;margin:0;flex:1}
+#olea-soins .olea-cta{margin-top:8px;font-weight:700;font-size:.92rem;color:#0d1b15;text-decoration:none}
+#olea-soins .olea-cta:hover{color:#4a6a20}
+@media(max-width:980px){#olea-soins .olea-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){#olea-soins .olea-grid{grid-template-columns:1fr}}
