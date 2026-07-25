@@ -11,6 +11,11 @@
   function buildForm(){
     var f=document.createElement('form'); f.className='ob-form'; f.setAttribute('novalidate','');
     f.innerHTML=
+      '<div class="ob-head">'+
+        '<span class="ob-eyebrow">Rendez-vous</span>'+
+        '<h3 class="ob-h">Réservez en quelques secondes</h3>'+
+        '<p class="ob-p">Remplissez le formulaire, notre équipe vous recontacte pour confirmer le jour et l’heure.</p>'+
+      '</div>'+
       '<div class="ob-row">'+
         '<div class="ob-field"><label>Prénom *</label><input name="Prénom" type="text" required placeholder="Jean"></div>'+
         '<div class="ob-field"><label>Nom *</label><input name="Nom" type="text" required placeholder="Dupont"></div>'+
