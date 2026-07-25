@@ -28,14 +28,18 @@
 @media(max-width:980px){#olea-soins .olea-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){#olea-soins .olea-grid{grid-template-columns:1fr}}
 
-/* bouton « Voir plus » sur l'accueil */
-#olea-more{display:flex;justify-content:center;padding:8px 28px 64px;background:#f7f6f0}
-#olea-more .olea-more-btn{display:inline-block;background:#0d1b15;color:#fff;font-weight:700;text-decoration:none;padding:15px 30px;border-radius:999px;font-size:1rem;transition:.2s;cursor:pointer}
-#olea-more .olea-more-btn:hover{background:#1c3327;transform:translateY(-2px)}
-#olea-more .olea-more-btn:focus-visible{outline:2px solid #0d1b15;outline-offset:2px}
+/* bouton « Voir tous nos soins » (aperçu accueil) */
+#olea-soins .olea-more-wrap{display:flex;justify-content:center;margin-top:38px}
+#olea-soins .olea-more-btn{display:inline-flex;align-items:center;gap:8px;background:#0d1b15;color:#fff;font-weight:700;text-decoration:none;padding:15px 30px;border-radius:999px;font-size:1rem;transition:.2s;cursor:pointer}
+#olea-soins .olea-more-btn:hover{background:#1c3327;transform:translateY(-2px)}
+#olea-soins .olea-more-btn:focus-visible{outline:2px solid #0d1b15;outline-offset:2px}
 
 /* Masquage ROBUSTE (survit à l'hydratation Framer) des sections en anglais/filler
-   qui réapparaissent depuis les chunks .mjs : investisseurs (À propos) + anciennes
-   cartes de services en anglais (Soins, remplacées par la grille des 21 soins). */
+   qui réapparaissent depuis les chunks .mjs :
+   - Innovation / Sticky Section = filler investisseurs + « Our Client's Words » (À propos)
+   - Sevice Cards / Service = anciennes cartes de services en anglais (Soins + Accueil),
+     remplacées par nos cartes photo. */
 [data-framer-name="Innovation"],
-[data-framer-name="Sevice Cards"]{display:none !important}
+[data-framer-name="Sticky Section"],
+[data-framer-name="Sevice Cards"],
+[data-framer-name="Service"]{display:none !important}
