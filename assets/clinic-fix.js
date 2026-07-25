@@ -28,26 +28,50 @@
     });
   }
 
+  // titres/labels animés « SplitText » (lettre/mot par mot) : texte normalisé -> FR
+  var SPLIT={
+    "Our Services":"Nos soins","Awesome Dental Care":"Des soins dentaires d'exception",
+    "Top Dentists & Tech":"Dentistes & technologies de pointe","Our Process":"Notre approche",
+    "Team Members":"Notre équipe","Our Expert Dentists":"Nos dentistes experts",
+    "Our Expert Team":"Notre équipe d'experts","Meet the Team":"Rencontrez l'équipe",
+    "Schedule your appointment now?":"Planifiez votre rendez-vous","Schedule Your Appointment":"Planifiez votre rendez-vous",
+    "Frequently Asked Question":"Questions fréquentes","Frequently Asked Questions":"Questions fréquentes",
+    "About Us":"À propos","About Oralcare":"À propos d'Oléa","About Oléa":"À propos d'Oléa",
+    "Dental Care for All Smiles":"Des soins pour tous les sourires","Our Smile Gallery":"Notre galerie de sourires",
+    "Book Appointment":"Prendre rendez-vous","Book an Appointment":"Prendre rendez-vous","Make an Appointment":"Prendre rendez-vous",
+    "Appointment":"Rendez-vous","Get in Touch With Us":"Contactez-nous","Why us?":"Pourquoi nous choisir ?",
+    "General Dentistry":"Dentisterie générale","Endodontics":"Endodontie","Orthodontics Care":"Orthodontie",
+    "Orthodontics":"Orthodontie","Cosmetic Dentistry":"Dentisterie esthétique","Oral Surgery":"Chirurgie buccale",
+    "Privacy Policy":"Politique de confidentialité","Terms & Conditions":"Conditions générales","Terms and Conditions":"Conditions générales",
+    "OOPS!":"OUPS !","Reserve Now":"Réserver","View All":"Voir tout","Read More":"Lire la suite",
+    "Working Process":"Notre méthode","Before & After Gallery":"Galerie avant/après",
+    "Our Expert":"Nos dentistes","Dentists":"experts","Our Expert Dentists":"Nos dentistes experts",
+    "Book":"Prendre","Book Appointment Now":"Prendre rendez-vous","Contact Us":"Contactez-nous",
+    "View Services":"Voir les soins","View Details":"Voir le détail","Back To Service":"Retour aux soins",
+    "What is General Dentistry?":"Qu'est-ce que la dentisterie générale ?","What is Endodontics?":"Qu'est-ce que l'endodontie ?",
+    "What is Orthodontics Care?":"Qu'est-ce que l'orthodontie ?","What is Cosmetic Dentistry?":"Qu'est-ce que la dentisterie esthétique ?",
+    "What is Oral Surgery?":"Qu'est-ce que la chirurgie buccale ?","Meet the Team":"Rencontrez l'équipe"
+  };
   var SPLITRE=[
     [/everyone should have a radiant smile/i,
      "Au cabinet Oléa, nous pensons que chacun mérite un sourire éclatant. Notre équipe experte prodigue des soins sur mesure dans un cadre chaleureux, avec une technologie de pointe pour les meilleurs résultats."]
   ];
+  function norm(s){ return (s||'').replace(/\s+/g,' ').trim(); }
   function fixSplit(){
-    document.querySelectorAll('h1,h2,h3,h4,p').forEach(function(el){
+    document.querySelectorAll('h1,h2,h3,h4,h5,p,a,button').forEach(function(el){
       if(el.getAttribute('data-frfixed')==='1') return;
-      var leaves=[].filter.call(el.querySelectorAll('span'),function(s){return s.children.length===0&&(s.textContent||'').length>=1&&(s.textContent||'').length<=22&&(s.textContent||'').indexOf(' ')<0;});
-      if(leaves.length<5) return;
-      var joined=leaves.map(function(s){return s.textContent;}).join(' ');
-      for(var i=0;i<SPLITRE.length;i++){
-        if(SPLITRE[i][0].test(joined)){
-          var cs=window.getComputedStyle(leaves[0]);
-          var sp=document.createElement('span'); sp.textContent=SPLITRE[i][1];
-          sp.style.color=cs.color; sp.style.fontFamily=cs.fontFamily; sp.style.fontSize=cs.fontSize;
-          sp.style.fontWeight=cs.fontWeight; sp.style.letterSpacing=cs.letterSpacing;
-          el.innerHTML=''; el.appendChild(sp); el.setAttribute('data-frfixed','1');
-          return;
-        }
-      }
+      var leaves=[].filter.call(el.querySelectorAll('span'),function(s){return s.children.length===0&&(s.textContent||'').trim().length>0;});
+      if(leaves.length<2) return;                       // seulement le texte fragmenté (SplitText)
+      var t=norm(el.textContent);
+      if(t.length>200) return;
+      var fr=SPLIT[t];
+      if(!fr){ for(var i=0;i<SPLITRE.length;i++){ if(SPLITRE[i][0].test(t)){ fr=SPLITRE[i][1]; break; } } }
+      if(!fr) return;
+      var cs=window.getComputedStyle(leaves[0]);
+      var sp=document.createElement('span'); sp.textContent=fr;
+      sp.style.color=cs.color; sp.style.fontFamily=cs.fontFamily; sp.style.fontSize=cs.fontSize;
+      sp.style.fontWeight=cs.fontWeight; sp.style.letterSpacing=cs.letterSpacing; sp.style.whiteSpace='pre-wrap';
+      el.innerHTML=''; el.appendChild(sp); el.setAttribute('data-frfixed','1');
     });
   }
   function apply(){
