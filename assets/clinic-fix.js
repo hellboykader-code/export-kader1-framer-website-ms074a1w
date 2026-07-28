@@ -9,7 +9,7 @@
   function isHero(s){ var m=main(); if(s&&m&&s===m.firstElementChild) return true; return s&&s.getAttribute&&s.getAttribute('data-framer-name')==='Hero'; }
   function hide(el){ if(el) el.style.display='none'; }
   function killSection(el){ var s=topOfMain(el); if(isHero(s)){ hide(el); return; } hide(s); hide(el); }
-  var LOGO="/export-kader1-framer-website-ms074a1w/assets/framer/images/Z105pA3VJa4nTDDld5jCn3K55U.svg";
+  var LOGO="/olea/assets/framer/images/Z105pA3VJa4nTDDld5jCn3K55U.svg";
   function forceLogo(){
     document.querySelectorAll('img[src*="Z105pA3V"]').forEach(function(img){
       if(img.getAttribute('srcset')) img.removeAttribute('srcset');

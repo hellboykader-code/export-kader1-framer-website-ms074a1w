@@ -2,7 +2,7 @@
    Robuste : re-cible le formulaire Framer vivant à chaque rendu ; envoi déclenché par un clic bouton
    (pas de soumission native -> pas d'interception routeur Framer ni de re-render de page). */
 (function(){
-  var DOCTOR_EMAIL="contact@cabinet-olea.fr"; /* <<< remplacer par l'e-mail RÉEL du praticien */
+  var DOCTOR_EMAIL="kaderhb33@gmail.com"; /* <<< remplacer par l'e-mail RÉEL du praticien */
   var SOINS=["Détartrage & Polissage","Examen & Bilan bucco-dentaire","Traitement des caries","Blanchiment dentaire","Facettes dentaires","Couronnes céramiques","Bridges (ponts dentaires)","Implants dentaires","Prothèses amovibles","Dévitalisation (traitement de canal)","Extraction dentaire","Extraction des dents de sagesse","Greffe osseuse","Orthodontie enfant","Aligneurs transparents (adulte)","Traitement des gencives","Surfaçage radiculaire","Soins des enfants","Urgences dentaires","Prévention & scellement des sillons","Bruxisme & gouttière occlusale"];
   function opts(){ return '<option value="" disabled selected>Sélectionnez un soin…</option>'+SOINS.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join(''); }
 
